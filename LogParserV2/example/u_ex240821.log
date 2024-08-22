@@ -1,0 +1,27 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-08-21 20:24:34
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-08-21 20:24:34 192.168.1.1 GET /index.html - 80 john_doe 192.168.1.100 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:89.0)+Gecko/20100101+Firefox/89.0 - 200 0 0 275
+2024-08-21 20:24:36 192.168.1.1 POST /login - 80 - 192.168.1.101 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:91.0)+Gecko/20100101+Firefox/91.0 /index.html 302 0 0 123
+2024-08-21 20:24:38 192.168.1.1 GET /dashboard - 80 jane_smith 192.168.1.102 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:92.0)+Gecko/20100101+Firefox/92.0 /login 200 0 0 523
+2024-08-21 20:24:40 192.168.1.1 GET /style.css - 80 - 192.168.1.103 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:93.0)+Gecko/20100101+Firefox/93.0 /dashboard 200 0 0 34
+2024-08-21 20:24:42 192.168.1.1 GET /script.js - 80 - 192.168.1.104 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:94.0)+Gecko/20100101+Firefox/94.0 /style.css 200 0 0 45
+2024-08-21 20:24:44 192.168.1.1 GET /image.png - 80 - 192.168.1.105 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:95.0)+Gecko/20100101+Firefox/95.0 /script.js 200 0 0 67
+2024-08-21 20:24:46 192.168.1.1 GET /favicon.ico - 80 - 192.168.1.106 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:96.0)+Gecko/20100101+Firefox/96.0 /image.png 404 0 2 12
+2024-08-21 20:24:48 192.168.1.1 GET /api/data - 80 john_doe 192.168.1.107 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:97.0)+Gecko/20100101+Firefox/97.0 /favicon.ico 200 0 0 345
+2024-08-21 20:24:50 192.168.1.1 POST /api/update - 80 - 192.168.1.108 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:98.0)+Gecko/20100101+Firefox/98.0 /api/data 500 0 0 234
+2024-08-21 20:24:52 192.168.1.1 GET /logout - 80 jane_smith 192.168.1.109 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:99.0)+Gecko/20100101+Firefox/99.0 /api/update 200 0 0 78
+2024-08-21 20:24:54 192.168.1.1 GET /contact - 80 - 192.168.1.110 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:100.0)+Gecko/20100101+Firefox/100.0 /logout 200 0 0 45
+2024-08-21 20:24:56 192.168.1.1 GET /about - 80 john_doe 192.168.1.111 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:101.0)+Gecko/20100101+Firefox/101.0 /contact 200 0 0 65
+2024-08-21 20:24:58 192.168.1.1 GET /home - 80 - 192.168.1.112 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:102.0)+Gecko/20100101+Firefox/102.0 /about 200 0 0 123
+2024-08-21 20:25:00 192.168.1.1 GET /services - 80 jane_smith 192.168.1.113 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:103.0)+Gecko/20100101+Firefox/103.0 /home 200 0 0 234
+2024-08-21 20:25:02 192.168.1.1 GET /products - 80 - 192.168.1.114 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:104.0)+Gecko/20100101+Firefox/104.0 /services 200 0 0 56
+2024-08-21 20:25:04 192.168.1.1 GET /blog - 80 john_doe 192.168.1.115 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:105.0)+Gecko/20100101+Firefox/105.0 /products 200 0 0 78
+2024-08-21 20:25:06 192.168.1.1 GET /blog/post1 - 80 - 192.168.1.116 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:106.0)+Gecko/20100101+Firefox/106.0 /blog 200 0 0 156
+2024-08-21 20:25:08 192.168.1.1 GET /blog/post2 - 80 jane_smith 192.168.1.117 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:107.0)+Gecko/20100101+Firefox/107.0 /blog/post1 200 0 0 123
+2024-08-21 20:25:10 192.168.1.1 GET /blog/post3 - 80 - 192.168.1.118 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:108.0)+Gecko/20100101+Firefox/108.0 /blog/post2 200 0 0 89
+2024-08-21 20:25:12 192.168.1.1 GET /blog/post4 - 80 john_doe 192.168.1.119 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:109.0)+Gecko/20100101+Firefox/109.0 /blog/post3 200 0 0 78
+2024-08-21 20:25:14 192.168.1.1 GET /blog/post5 - 80 - 192.168.1.120 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:110.0)+Gecko/20100101+Firefox/110.0 /blog/post4 200 0 0 56
+2024-08-21 20:25:16 192.168.1.1 GET /portfolio - 80 jane_smith 192.168.1.121 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:111.0)+Gecko/20100101+Firefox/111.0 /blog/post5 200 0 0 98
+
