@@ -1,4 +1,4 @@
-﻿# IIS Log Parser
+﻿# IIS Log Parser - Please make it better :)
 
 This document explains how to use the IIS Log Parser to parse IIS logs from a folder, display the results, and identify potential security issues. The parser can be run in a Docker container, which makes it easy to manage and deploy.
 
