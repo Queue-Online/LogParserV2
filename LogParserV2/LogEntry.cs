@@ -1,4 +1,5 @@
-﻿public class LogEntry
+﻿namespace LogParserV2;
+public class LogEntry
 {
     public DateTime Date { get; set; }
     public string ServerIP { get; set; }
